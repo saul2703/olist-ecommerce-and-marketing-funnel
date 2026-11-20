@@ -1,0 +1,5 @@
+# Exclude large raw census archive (>100 MB GitHub limit)
+Bases-Finales-CPV2024SV-CSV.zip
+*.csv
+__pycache__/
+.DS_Store
