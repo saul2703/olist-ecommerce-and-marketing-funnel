@@ -1,0 +1,855 @@
+{
+  "overview": {
+    "total_orders": 99441,
+    "delivered_orders": 96478,
+    "order_items": 112650,
+    "unique_buyers": 96096,
+    "repeat_buyers": 2997,
+    "repeat_buyer_pct": 3.12,
+    "gmv_brl": 13591643.7,
+    "freight_brl": 2251909.54,
+    "total_payments_brl": 16008872.12,
+    "total_sellers": 3095,
+    "top_10_pct_sellers_count": 310,
+    "top_10_pct_sellers_gmv_share": 67.56,
+    "median_seller_gmv_brl": 821.48,
+    "mql_leads": 8000,
+    "closed_deals": 842,
+    "lead_to_deal_pct": 10.53,
+    "active_funnel_sellers": 380,
+    "inactive_funnel_sellers": 462,
+    "deal_activation_pct": 45.13,
+    "funnel_gmv_brl": 676851.48,
+    "funnel_orders": 4518,
+    "median_days_won_to_first_sale": 50.0,
+    "sp_freight_share_pct": 12.14
+  },
+  "delivery_impact": [
+    {
+      "bucket": "on_time",
+      "orders": 88168,
+      "share_pct": 92.0,
+      "avg_review": 4.29,
+      "pct_1_star": 6.57,
+      "pct_5_star": 62.44,
+      "median_delivery_days": 9.7
+    },
+    {
+      "bucket": "late",
+      "orders": 7662,
+      "share_pct": 8.0,
+      "avg_review": 2.57,
+      "pct_1_star": 46.12,
+      "pct_5_star": 22.23,
+      "median_delivery_days": 29.1
+    }
+  ],
+  "channels": [
+    {
+      "origin": "unknown",
+      "mql_leads": 1099,
+      "closed_deals": 179,
+      "active_sellers": 81,
+      "lead_to_won_pct": 16.29,
+      "won_to_active_pct": 45.25,
+      "lead_to_active_pct": 7.37,
+      "gmv": 213742.7,
+      "orders": 1280
+    },
+    {
+      "origin": "organic_search",
+      "mql_leads": 2296,
+      "closed_deals": 271,
+      "active_sellers": 113,
+      "lead_to_won_pct": 11.8,
+      "won_to_active_pct": 41.7,
+      "lead_to_active_pct": 4.92,
+      "gmv": 207023.45,
+      "orders": 1208
+    },
+    {
+      "origin": "paid_search",
+      "mql_leads": 1586,
+      "closed_deals": 195,
+      "active_sellers": 101,
+      "lead_to_won_pct": 12.3,
+      "won_to_active_pct": 51.79,
+      "lead_to_active_pct": 6.37,
+      "gmv": 155277.05,
+      "orders": 1247
+    },
+    {
+      "origin": "social",
+      "mql_leads": 1350,
+      "closed_deals": 75,
+      "active_sellers": 31,
+      "lead_to_won_pct": 5.56,
+      "won_to_active_pct": 41.33,
+      "lead_to_active_pct": 2.3,
+      "gmv": 43477.99,
+      "orders": 392
+    },
+    {
+      "origin": "direct_traffic",
+      "mql_leads": 499,
+      "closed_deals": 56,
+      "active_sellers": 31,
+      "lead_to_won_pct": 11.22,
+      "won_to_active_pct": 55.36,
+      "lead_to_active_pct": 6.21,
+      "gmv": 21903.9,
+      "orders": 193
+    },
+    {
+      "origin": "referral",
+      "mql_leads": 284,
+      "closed_deals": 24,
+      "active_sellers": 9,
+      "lead_to_won_pct": 8.45,
+      "won_to_active_pct": 37.5,
+      "lead_to_active_pct": 3.17,
+      "gmv": 17887.15,
+      "orders": 69
+    },
+    {
+      "origin": "email",
+      "mql_leads": 493,
+      "closed_deals": 15,
+      "active_sellers": 6,
+      "lead_to_won_pct": 3.04,
+      "won_to_active_pct": 40.0,
+      "lead_to_active_pct": 1.22,
+      "gmv": 8484.99,
+      "orders": 22
+    },
+    {
+      "origin": "other",
+      "mql_leads": 150,
+      "closed_deals": 4,
+      "active_sellers": 2,
+      "lead_to_won_pct": 2.67,
+      "won_to_active_pct": 50.0,
+      "lead_to_active_pct": 1.33,
+      "gmv": 6888.65,
+      "orders": 89
+    },
+    {
+      "origin": "missing",
+      "mql_leads": 60,
+      "closed_deals": 14,
+      "active_sellers": 4,
+      "lead_to_won_pct": 23.33,
+      "won_to_active_pct": 28.57,
+      "lead_to_active_pct": 6.67,
+      "gmv": 1242.6,
+      "orders": 11
+    },
+    {
+      "origin": "display",
+      "mql_leads": 118,
+      "closed_deals": 6,
+      "active_sellers": 2,
+      "lead_to_won_pct": 5.08,
+      "won_to_active_pct": 33.33,
+      "lead_to_active_pct": 1.69,
+      "gmv": 923.0,
+      "orders": 7
+    },
+    {
+      "origin": "other_publicities",
+      "mql_leads": 65,
+      "closed_deals": 3,
+      "active_sellers": 0,
+      "lead_to_won_pct": 4.62,
+      "won_to_active_pct": 0.0,
+      "lead_to_active_pct": 0.0,
+      "gmv": 0.0,
+      "orders": 0
+    }
+  ],
+  "lead_types": [
+    {
+      "lead_type": "online_big",
+      "closed_deals": 126,
+      "active_sellers": 79,
+      "activation_pct": 62.7,
+      "gmv": 290930.94,
+      "orders": 1730
+    },
+    {
+      "lead_type": "online_medium",
+      "closed_deals": 332,
+      "active_sellers": 172,
+      "activation_pct": 51.81,
+      "gmv": 206918.67,
+      "orders": 1749
+    },
+    {
+      "lead_type": "online_small",
+      "closed_deals": 77,
+      "active_sellers": 28,
+      "activation_pct": 36.36,
+      "gmv": 52494.48,
+      "orders": 393
+    },
+    {
+      "lead_type": "missing",
+      "closed_deals": 6,
+      "active_sellers": 3,
+      "activation_pct": 50.0,
+      "gmv": 45078.9,
+      "orders": 47
+    },
+    {
+      "lead_type": "industry",
+      "closed_deals": 123,
+      "active_sellers": 41,
+      "activation_pct": 33.33,
+      "gmv": 29178.39,
+      "orders": 237
+    },
+    {
+      "lead_type": "online_beginner",
+      "closed_deals": 57,
+      "active_sellers": 21,
+      "activation_pct": 36.84,
+      "gmv": 22302.52,
+      "orders": 157
+    },
+    {
+      "lead_type": "offline",
+      "closed_deals": 104,
+      "active_sellers": 30,
+      "activation_pct": 28.85,
+      "gmv": 21753.54,
+      "orders": 134
+    },
+    {
+      "lead_type": "online_top",
+      "closed_deals": 14,
+      "active_sellers": 6,
+      "activation_pct": 42.86,
+      "gmv": 8194.04,
+      "orders": 71
+    },
+    {
+      "lead_type": "other",
+      "closed_deals": 3,
+      "active_sellers": 0,
+      "activation_pct": 0.0,
+      "gmv": 0.0,
+      "orders": 0
+    }
+  ],
+  "states": [
+    {
+      "state": "SP",
+      "orders": 41375,
+      "gmv": 5202955.05,
+      "freight": 718723.07,
+      "freight_share_pct": 12.14,
+      "avg_delivery_days": 8.7,
+      "late_pct": 5.77
+    },
+    {
+      "state": "RJ",
+      "orders": 12762,
+      "gmv": 1824092.67,
+      "freight": 305589.31,
+      "freight_share_pct": 14.35,
+      "avg_delivery_days": 15.1,
+      "late_pct": 12.97
+    },
+    {
+      "state": "MG",
+      "orders": 11544,
+      "gmv": 1585308.03,
+      "freight": 270853.46,
+      "freight_share_pct": 14.59,
+      "avg_delivery_days": 12.0,
+      "late_pct": 5.45
+    },
+    {
+      "state": "RS",
+      "orders": 5432,
+      "gmv": 750304.02,
+      "freight": 135522.74,
+      "freight_share_pct": 15.3,
+      "avg_delivery_days": 15.2,
+      "late_pct": 6.88
+    },
+    {
+      "state": "PR",
+      "orders": 4998,
+      "gmv": 683083.76,
+      "freight": 117851.68,
+      "freight_share_pct": 14.71,
+      "avg_delivery_days": 11.9,
+      "late_pct": 4.78
+    },
+    {
+      "state": "SC",
+      "orders": 3612,
+      "gmv": 520553.34,
+      "freight": 89660.26,
+      "freight_share_pct": 14.69,
+      "avg_delivery_days": 15.0,
+      "late_pct": 9.61
+    },
+    {
+      "state": "BA",
+      "orders": 3358,
+      "gmv": 511349.99,
+      "freight": 100156.68,
+      "freight_share_pct": 16.38,
+      "avg_delivery_days": 19.2,
+      "late_pct": 13.68
+    },
+    {
+      "state": "DF",
+      "orders": 2125,
+      "gmv": 302603.94,
+      "freight": 50625.5,
+      "freight_share_pct": 14.33,
+      "avg_delivery_days": 13.0,
+      "late_pct": 7.43
+    },
+    {
+      "state": "ES",
+      "orders": 2025,
+      "gmv": 275037.31,
+      "freight": 49764.6,
+      "freight_share_pct": 15.32,
+      "avg_delivery_days": 15.6,
+      "late_pct": 12.22
+    },
+    {
+      "state": "GO",
+      "orders": 2007,
+      "gmv": 294591.95,
+      "freight": 53114.98,
+      "freight_share_pct": 15.28,
+      "avg_delivery_days": 15.4,
+      "late_pct": 7.86
+    },
+    {
+      "state": "PE",
+      "orders": 1648,
+      "gmv": 262788.03,
+      "freight": 59449.66,
+      "freight_share_pct": 18.45,
+      "avg_delivery_days": 18.3,
+      "late_pct": 10.19
+    },
+    {
+      "state": "CE",
+      "orders": 1327,
+      "gmv": 227254.71,
+      "freight": 48351.59,
+      "freight_share_pct": 17.54,
+      "avg_delivery_days": 21.0,
+      "late_pct": 15.29
+    },
+    {
+      "state": "PA",
+      "orders": 970,
+      "gmv": 178947.81,
+      "freight": 38699.3,
+      "freight_share_pct": 17.78,
+      "avg_delivery_days": 23.8,
+      "late_pct": 12.43
+    },
+    {
+      "state": "MT",
+      "orders": 903,
+      "gmv": 156453.53,
+      "freight": 29715.43,
+      "freight_share_pct": 15.96,
+      "avg_delivery_days": 18.0,
+      "late_pct": 6.75
+    },
+    {
+      "state": "MA",
+      "orders": 740,
+      "gmv": 119648.22,
+      "freight": 31523.77,
+      "freight_share_pct": 20.85,
+      "avg_delivery_days": 21.6,
+      "late_pct": 20.38
+    },
+    {
+      "state": "MS",
+      "orders": 709,
+      "gmv": 116812.64,
+      "freight": 19144.03,
+      "freight_share_pct": 14.08,
+      "avg_delivery_days": 15.5,
+      "late_pct": 10.85
+    },
+    {
+      "state": "PB",
+      "orders": 532,
+      "gmv": 115268.08,
+      "freight": 25719.73,
+      "freight_share_pct": 18.24,
+      "avg_delivery_days": 20.6,
+      "late_pct": 11.26
+    },
+    {
+      "state": "PI",
+      "orders": 493,
+      "gmv": 86914.08,
+      "freight": 21218.2,
+      "freight_share_pct": 19.62,
+      "avg_delivery_days": 19.4,
+      "late_pct": 15.49
+    },
+    {
+      "state": "RN",
+      "orders": 482,
+      "gmv": 83034.98,
+      "freight": 18860.1,
+      "freight_share_pct": 18.51,
+      "avg_delivery_days": 19.3,
+      "late_pct": 10.36
+    },
+    {
+      "state": "AL",
+      "orders": 411,
+      "gmv": 80314.81,
+      "freight": 15914.59,
+      "freight_share_pct": 16.54,
+      "avg_delivery_days": 24.5,
+      "late_pct": 24.12
+    },
+    {
+      "state": "SE",
+      "orders": 345,
+      "gmv": 58920.85,
+      "freight": 14111.47,
+      "freight_share_pct": 19.32,
+      "avg_delivery_days": 21.5,
+      "late_pct": 16.27
+    },
+    {
+      "state": "TO",
+      "orders": 279,
+      "gmv": 49621.74,
+      "freight": 11732.68,
+      "freight_share_pct": 19.12,
+      "avg_delivery_days": 17.4,
+      "late_pct": 12.26
+    },
+    {
+      "state": "RO",
+      "orders": 247,
+      "gmv": 46140.64,
+      "freight": 11417.38,
+      "freight_share_pct": 19.84,
+      "avg_delivery_days": 19.7,
+      "late_pct": 4.03
+    },
+    {
+      "state": "AM",
+      "orders": 147,
+      "gmv": 22356.84,
+      "freight": 5478.89,
+      "freight_share_pct": 19.68,
+      "avg_delivery_days": 26.4,
+      "late_pct": 4.29
+    },
+    {
+      "state": "AC",
+      "orders": 81,
+      "gmv": 15982.95,
+      "freight": 3686.75,
+      "freight_share_pct": 18.74,
+      "avg_delivery_days": 20.7,
+      "late_pct": 3.3
+    },
+    {
+      "state": "AP",
+      "orders": 68,
+      "gmv": 13474.3,
+      "freight": 2788.5,
+      "freight_share_pct": 17.15,
+      "avg_delivery_days": 28.2,
+      "late_pct": 4.94
+    },
+    {
+      "state": "RR",
+      "orders": 46,
+      "gmv": 7829.43,
+      "freight": 2235.19,
+      "freight_share_pct": 22.21,
+      "avg_delivery_days": 28.2,
+      "late_pct": 10.87
+    }
+  ],
+  "payments": [
+    {
+      "payment_type": "credit_card",
+      "transactions": 76795,
+      "orders": 76505,
+      "total_brl": 12542084.19,
+      "share_pct": 78.34,
+      "avg_value": 163.32,
+      "avg_installments": 3.51
+    },
+    {
+      "payment_type": "boleto",
+      "transactions": 19784,
+      "orders": 19784,
+      "total_brl": 2869361.27,
+      "share_pct": 17.92,
+      "avg_value": 145.03,
+      "avg_installments": 1.0
+    },
+    {
+      "payment_type": "voucher",
+      "transactions": 5775,
+      "orders": 3866,
+      "total_brl": 379436.87,
+      "share_pct": 2.37,
+      "avg_value": 65.7,
+      "avg_installments": 1.0
+    },
+    {
+      "payment_type": "debit_card",
+      "transactions": 1529,
+      "orders": 1528,
+      "total_brl": 217989.79,
+      "share_pct": 1.36,
+      "avg_value": 142.57,
+      "avg_installments": 1.0
+    }
+  ],
+  "top_categories": [
+    {
+      "category": "health_beauty",
+      "orders": 8836,
+      "items": 9670,
+      "gmv": 1258681.34,
+      "freight": 182566.73,
+      "freight_pct": 12.67,
+      "avg_review": 4.14,
+      "late_pct": 9.06
+    },
+    {
+      "category": "watches_gifts",
+      "orders": 5624,
+      "items": 5991,
+      "gmv": 1205005.68,
+      "freight": 100535.93,
+      "freight_pct": 7.7,
+      "avg_review": 4.02,
+      "late_pct": 8.28
+    },
+    {
+      "category": "bed_bath_table",
+      "orders": 9417,
+      "items": 11115,
+      "gmv": 1036988.68,
+      "freight": 204693.04,
+      "freight_pct": 16.49,
+      "avg_review": 3.9,
+      "late_pct": 8.4
+    },
+    {
+      "category": "sports_leisure",
+      "orders": 7720,
+      "items": 8641,
+      "gmv": 988048.97,
+      "freight": 168607.51,
+      "freight_pct": 14.58,
+      "avg_review": 4.11,
+      "late_pct": 7.41
+    },
+    {
+      "category": "computers_accessories",
+      "orders": 6689,
+      "items": 7827,
+      "gmv": 911954.32,
+      "freight": 147318.08,
+      "freight_pct": 13.91,
+      "avg_review": 3.93,
+      "late_pct": 7.77
+    },
+    {
+      "category": "furniture_decor",
+      "orders": 6449,
+      "items": 8334,
+      "gmv": 729762.49,
+      "freight": 172749.3,
+      "freight_pct": 19.14,
+      "avg_review": 3.91,
+      "late_pct": 8.43
+    },
+    {
+      "category": "cool_stuff",
+      "orders": 3632,
+      "items": 3796,
+      "gmv": 635290.85,
+      "freight": 84039.1,
+      "freight_pct": 11.68,
+      "avg_review": 4.15,
+      "late_pct": 6.75
+    },
+    {
+      "category": "housewares",
+      "orders": 5884,
+      "items": 6964,
+      "gmv": 632248.66,
+      "freight": 146149.11,
+      "freight_pct": 18.78,
+      "avg_review": 4.05,
+      "late_pct": 6.49
+    },
+    {
+      "category": "auto",
+      "orders": 3897,
+      "items": 4235,
+      "gmv": 592720.11,
+      "freight": 92664.21,
+      "freight_pct": 13.52,
+      "avg_review": 4.06,
+      "late_pct": 8.29
+    },
+    {
+      "category": "garden_tools",
+      "orders": 3518,
+      "items": 4347,
+      "gmv": 485256.46,
+      "freight": 98962.75,
+      "freight_pct": 16.94,
+      "avg_review": 4.05,
+      "late_pct": 7.97
+    },
+    {
+      "category": "toys",
+      "orders": 3886,
+      "items": 4117,
+      "gmv": 483946.6,
+      "freight": 77425.95,
+      "freight_pct": 13.79,
+      "avg_review": 4.16,
+      "late_pct": 7.42
+    },
+    {
+      "category": "baby",
+      "orders": 2885,
+      "items": 3065,
+      "gmv": 411764.89,
+      "freight": 68353.11,
+      "freight_pct": 14.24,
+      "avg_review": 4.01,
+      "late_pct": 8.79
+    },
+    {
+      "category": "perfumery",
+      "orders": 3162,
+      "items": 3419,
+      "gmv": 399124.87,
+      "freight": 54213.84,
+      "freight_pct": 11.96,
+      "avg_review": 4.17,
+      "late_pct": 7.33
+    },
+    {
+      "category": "telephony",
+      "orders": 4199,
+      "items": 4545,
+      "gmv": 323667.53,
+      "freight": 71215.79,
+      "freight_pct": 18.03,
+      "avg_review": 3.95,
+      "late_pct": 8.33
+    },
+    {
+      "category": "office_furniture",
+      "orders": 1273,
+      "items": 1691,
+      "gmv": 273960.7,
+      "freight": 68571.95,
+      "freight_pct": 20.02,
+      "avg_review": 3.49,
+      "late_pct": 8.93
+    },
+    {
+      "category": "stationery",
+      "orders": 2311,
+      "items": 2517,
+      "gmv": 230943.23,
+      "freight": 46798.48,
+      "freight_pct": 16.85,
+      "avg_review": 4.2,
+      "late_pct": 8.03
+    },
+    {
+      "category": "computers",
+      "orders": 181,
+      "items": 203,
+      "gmv": 222963.13,
+      "freight": 9836.3,
+      "freight_pct": 4.23,
+      "avg_review": 4.17,
+      "late_pct": 6.53
+    },
+    {
+      "category": "pet_shop",
+      "orders": 1710,
+      "items": 1947,
+      "gmv": 214315.41,
+      "freight": 39561.24,
+      "freight_pct": 15.58,
+      "avg_review": 4.18,
+      "late_pct": 6.13
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2016-09",
+      "orders": 2,
+      "gmv": 207.86,
+      "freight": 71.83
+    },
+    {
+      "month": "2016-10",
+      "orders": 300,
+      "gmv": 46514.99,
+      "freight": 6980.02
+    },
+    {
+      "month": "2016-12",
+      "orders": 1,
+      "gmv": 10.9,
+      "freight": 8.72
+    },
+    {
+      "month": "2017-01",
+      "orders": 797,
+      "gmv": 120098.27,
+      "freight": 16845.19
+    },
+    {
+      "month": "2017-02",
+      "orders": 1763,
+      "gmv": 244959.35,
+      "freight": 38602.34
+    },
+    {
+      "month": "2017-03",
+      "orders": 2649,
+      "gmv": 368341.32,
+      "freight": 57276.64
+    },
+    {
+      "month": "2017-04",
+      "orders": 2386,
+      "gmv": 353842.98,
+      "freight": 52005.63
+    },
+    {
+      "month": "2017-05",
+      "orders": 3671,
+      "gmv": 503159.19,
+      "freight": 79551.64
+    },
+    {
+      "month": "2017-06",
+      "orders": 3229,
+      "gmv": 429916.61,
+      "freight": 69735.63
+    },
+    {
+      "month": "2017-07",
+      "orders": 3998,
+      "gmv": 492287.3,
+      "freight": 86466.43
+    },
+    {
+      "month": "2017-08",
+      "orders": 4304,
+      "gmv": 568245.79,
+      "freight": 93657.73
+    },
+    {
+      "month": "2017-09",
+      "orders": 4265,
+      "gmv": 621415.91,
+      "freight": 95686.81
+    },
+    {
+      "month": "2017-10",
+      "orders": 4605,
+      "gmv": 660179.62,
+      "freight": 104576.41
+    },
+    {
+      "month": "2017-11",
+      "orders": 7507,
+      "gmv": 1003862.14,
+      "freight": 168329.54
+    },
+    {
+      "month": "2017-12",
+      "orders": 5662,
+      "gmv": 742183.79,
+      "freight": 119342.98
+    },
+    {
+      "month": "2018-01",
+      "orders": 7235,
+      "gmv": 945456.29,
+      "freight": 156463.72
+    },
+    {
+      "month": "2018-02",
+      "orders": 6655,
+      "gmv": 837895.43,
+      "freight": 141590.73
+    },
+    {
+      "month": "2018-03",
+      "orders": 7185,
+      "gmv": 981051.06,
+      "freight": 171605.93
+    },
+    {
+      "month": "2018-04",
+      "orders": 6924,
+      "gmv": 993592.98,
+      "freight": 162655.91
+    },
+    {
+      "month": "2018-05",
+      "orders": 6849,
+      "gmv": 992871.75,
+      "freight": 152814.71
+    },
+    {
+      "month": "2018-06",
+      "orders": 6149,
+      "gmv": 863265.53,
+      "freight": 157116.37
+    },
+    {
+      "month": "2018-07",
+      "orders": 6251,
+      "gmv": 878044.27,
+      "freight": 161739.31
+    },
+    {
+      "month": "2018-08",
+      "orders": 6428,
+      "gmv": 848860.1,
+      "freight": 148113.41
+    },
+    {
+      "month": "2018-09",
+      "orders": 1,
+      "gmv": 145.0,
+      "freight": 21.46
+    }
+  ]
+}
