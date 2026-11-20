@@ -1,5 +1,7 @@
 # Olist E-Commerce & Marketing Funnel
 
+> **Language:** **English** | [Español (`README.es.md`)](README.es.md)
+>
 > **99,441 real Brazilian marketplace orders + 8,000 seller sales leads**, joined together to answer two simple business questions: why do almost all shoppers leave after one order, and why do more than half of signed sellers never make a sale?
 
 ---
