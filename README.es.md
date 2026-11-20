@@ -34,4 +34,4 @@ uv run --with "kagglehub[pandas-datasets]" python src/analyze_olist.py
 node verify.mjs
 ```
 
-Abre [`index.html`](index.html) en cualquier navegador para usar el tablero bilingüe (**EN / ES**) con tema claro/oscuro.
+Abre [`index.html`](index.html) en cualquier navegador para usar el dashboard bilingüe (**EN / ES**) con tema claro/oscuro.
