@@ -27,7 +27,7 @@
 
 ## Cómo Ejecutarlo
 
-Ambos conjuntos de datos se cargan directo con `kagglehub` (`olistbr/brazilian-ecommerce` y `olistbr/marketing-funnel-olist`):
+Ambos conjuntos de datos se cargan directo con `kagglehub` ([`olistbr/brazilian-ecommerce`](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) y [`olistbr/marketing-funnel-olist`](https://www.kaggle.com/datasets/olistbr/marketing-funnel-olist)):
 
 ```powershell
 uv run --with "kagglehub[pandas-datasets]" python src/analyze_olist.py

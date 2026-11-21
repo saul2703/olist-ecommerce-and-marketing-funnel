@@ -27,7 +27,7 @@
 
 ## How to Run
 
-Both datasets are loaded via `kagglehub` (`olistbr/brazilian-ecommerce` and `olistbr/marketing-funnel-olist`):
+Both datasets are loaded via `kagglehub` ([`olistbr/brazilian-ecommerce`](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) and [`olistbr/marketing-funnel-olist`](https://www.kaggle.com/datasets/olistbr/marketing-funnel-olist)):
 
 ```powershell
 uv run --with "kagglehub[pandas-datasets]" python src/analyze_olist.py
